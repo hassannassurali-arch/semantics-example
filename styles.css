@@ -75,6 +75,12 @@ footer {
 
 
 /* Add to about.css */
+.card-container {
+    display: grid;
+  grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    padding: 16px;
+}
 .about-card {
     background: #fff;
     border-radius: 8px;
@@ -83,6 +89,8 @@ footer {
     max-width: 400px;
     margin: 32px auto;
     text-align: center;
+    display:flex;
+    flex-direction:column;
 }
 .about-card h2 {
     margin-top: 0;
